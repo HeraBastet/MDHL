@@ -1,0 +1,147 @@
+html {
+    font-size: 62.5%;
+    margin: 10rem 28rem;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    margin-bottom: 5rem;
+}
+
+/** 1 rem = 10px **/
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    background-image: url(/img/design1_image1.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header h1 {
+    position: relative;
+    bottom: 6rem;
+    font-size: 5rem;
+}
+
+.header h2 {    
+  text-align: center;
+  border: solid black 0.02rem;
+  margin: 0;
+  position: relative;
+  top: 49rem;
+}
+
+nav{
+    position: relative;
+    text-align: end;
+    bottom: 10.5rem;
+    right: 1rem;
+  }
+
+nav a {
+    border: solid black 0.1rem;
+    padding: 3px 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #617bae;
+    box-shadow: 0.2rem 0.2rem black;
+}
+
+.active{
+    background-color: #00cc66;
+  }
+
+.logo {
+    display: inline;
+}
+
+.logo img {
+    width: 15rem;
+    height: 15rem;
+    padding: 2rem;
+    position: relative;
+    top: 3rem;
+}
+
+.conteiner-pos {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1rem;
+    padding-top: 4.5rem;
+    max-width: 100rem;
+    text-align: justify;
+}
+
+.conteiner-pos-contact {
+    position: relative;
+    right: -21rem;
+    top: -14rem;
+}
+
+.conteiner-pos h3 {
+    margin-bottom: 0;
+}
+
+.conteiner-pos h2 {
+    margin-bottom: 0;
+}
+
+.conteiner-pos p {
+    margin-top: 0;
+    text-indent: 2.4rem;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 4rem;
+}
+
+ul h3 {
+    margin: 0;
+}
+
+tbody {
+    padding: 2rem;
+    margin: 2rem;  
+}
+
+th {
+    padding: 2rem;
+    margin: 2rem;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 1rem;
+    text-align: center;
+}
+
+.location {
+    text-align: left;
+}
+
+.texto1 {
+    margin-top: 7rem;
+}
+
+.texto2 {
+    display: flex;
+    justify-content:space-between;
+    width: 58rem;
+}
+
+.title-rules {
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.viñeta li{
+    list-style-type: circle;
+}

@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="icon" type="image/png" href="/Imagenes/Logo Mighty ducks-01.png">
     <title>Mighty Ducks Hockey League</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="icon" type="image/png" href="/img/Logo.png">
+    <link href="/css/styless.css" rel="stylesheet">
 </head>
-<body>
 
-    <header>
+<body>
+    
+    <header class="header">
         <h1>Mighty Ducks Hockey League</h1>
+        
+            <nav>
+                <a class="active" href="./">Home</a>
+                <a href="./about.html">About MDHL</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/game_information.html">Game Information</a>
+                <a href="/rules.html">Rules</a>
+            </nav>
+    
+        <h2>Upcoming Events</h2>
     </header>
-    
-    <nav class="botones">
-        <a class="active" href="./">Home</a>
-        <a href="./About_MDHL.html">About MDHL</a>
-        <a href="./Contact.html">Contact</a>
-        <a href="./Game_Information.html">Game Information</a>
-        <a href="./Rules.html">Rules</a>
-    </nav>
-    
-    <div class="header-img">
-        <img src="/Imagenes/design1_image1.jpg" alt="Partido_Hockey">
-        <h2 class="title-img">Upcoming Events</h2>
-    </div>
         
     <main>
-        
-        <aside class="logo">
-            <img src="Imagenes/LogoMightyducks-01.png" alt="Logo">
-        </aside>
+
+        <div class="logo">
+            <img src="/img/Logo.png" alt="Logo">
+        </div>
 
         <section class="conteiner-pos">
                <h3>August 4</h3>
@@ -45,6 +46,8 @@
                <p>First Game of the Season(Check Game Schedule for details)</p>
                
         <section>
+
     </main>
+
 </body>
 </html>
