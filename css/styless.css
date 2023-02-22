@@ -140,6 +140,7 @@ td {
     font-weight: normal;
     display: flex;
     justify-content: center;
+    font-size: 2rem;
 }
 
 .viñeta li{
@@ -155,11 +156,25 @@ td {
 }
 
 .conteiner-pos-map {
-    position: relative;
-    left: 16.5rem;
-    margin: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-left: 2.5rem;
 }
 
 .conteiner-pos h3 {
     margin: 2rem;
+}
+
+.submit {
+    margin-top: 1rem;
+}
+
+fieldset{
+    border: none;
+}
+
+.form {
+    display: flex;
+    align-items: flex-start;
 }
